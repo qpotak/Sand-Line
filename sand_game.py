@@ -306,10 +306,10 @@ def tutorial_screen():
     ]
 
     tutorial_texts = [
-        "Press S to open and close upgrade menu\nPress SPACE to pause the game\nPress ESC to open settings\n\n\n\nНажмите S для открытия и закпытия\nменю апгрейдов\nПоставьте паузу, нажав пробел\nНажмите ESC для открытия настроек",
-        "Place a solider by clicking on an\nany empty tile on rows 1-4.\nEach soldier costs 15production \nand 25 ammunition\n\n\nПоставьте солдатика, нажав\nна любую пустую клетку на рядах 1-4.\nКаждый солдатик стоит 15 продукции \nи 25 патронов",
+        "Press S to open and close upgrade menu\nPress SPACE to pause the game\nPress ESC to open settings\n\n\n\nНажмите S для открытия и закрытия\nменю апгрейдов\nПоставьте паузу, нажав пробел\nНажмите ESC для открытия настроек",
+        "Place a solider by clicking on an\n empty tile on rows 1-4.\nEach soldier costs 15 production \nand 25 ammunition\n\n\nПоставьте солдатика, нажав\nна любую пустую клетку на рядах 1-4.\nКаждый солдатик стоит 15 продукции \nи 25 патронов",
         "You can also drag your soldiers\nby clicking and holding them\n\n\nВы также можете перетаскивать\nсвоих солдатиков, зажав их\n",
-        "Truck can be placed on the first row\n and increases your production\nIt should be placed first\n\n\nГрузовик ставится на первый ряд\nи увеличивает производимость.\nЕго следует ставить первым",
+        "Truck can be placed on the first row\n. It increases your production\nIt should be placed first\n\n\nГрузовик ставится на первый ряд\nи увеличивает производимость.\nЕго следует ставить первым",
         "Bunker increases defence of your soldier.\nIt can be placed anywhere on rows 2-4\n\n\nБункер увеличивает защиту вашего\nсолдатика. Он ставится на рядах 2-4",
     ]
     next_button = Button((SCREEN_WIDTH - 200, SCREEN_HEIGHT - 100, 150, 50), "Next", font)
